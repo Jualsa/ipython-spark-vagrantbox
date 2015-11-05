@@ -2,7 +2,7 @@
 .This ansible script provisions a vagrant box with:
 * Oracle Java 8
 * spark_version: "1.5.1-bin-hadoop2.6"
-* Anaconda-2.3.0-Linux-x86_64.sh
+* Anaconda2-2.4.0-Linux-x86_64.sh
 
 === License
 The MIT License (MIT).  See LICENSE.adoc
