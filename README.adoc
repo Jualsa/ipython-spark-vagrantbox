@@ -9,7 +9,7 @@ The MIT License (MIT).  See LICENSE.adoc
 
 === What is needed to run the program
 You must have Ansible, VirtualBox, and Vagrant installed.  
-See DEPENDENCIES.adoc.
+See ANSIBLE.adoc.
 As provided, the Vagrant VM will use all of your cores and 1/2 of your memory.
 
 === How to run
