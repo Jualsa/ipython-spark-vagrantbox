@@ -54,9 +54,9 @@ Vagrant.configure(2) do |config|
       if host =~ /darwin/
         # Give access to all cpu cores on the host
         cpus = `sysctl -n hw.ncpu`.to_i
-        # Give VM 1/4 system memory & access to all cpu cores on the host
+        # Give VM 1/2 system memory & access to all cpu cores on the host
         # sysctl returns Bytes and we need to convert to MB
-        mem = `sysctl -n hw.memsize`.to_i / 1024 / 1024 / 4
+        mem = `sysctl -n hw.memsize`.to_i / 1024 / 1024 / 2
         #mem = 1024
       elsif host =~ /linux/
         # Give access to all cpu cores on the host
