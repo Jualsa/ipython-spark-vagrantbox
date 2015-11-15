@@ -21,8 +21,9 @@ As provided, the Vagrant VM will use all of your cores and 1/2 of your memory.
 ----
 
 .To Use:
-* open http://localhost:8888
-* change directory to /vagrant/data
+* make a data directory and put your working files there `mkdir data`
+* open http://localhost:8888 in the browser
+* change directory to /vagrant/data in Jupiter notebook
 * create a new notebook
 * in the Python Jupyter notebook you can access the spark context with variable sc
 * remember to do `vagrant destroy` when you are done
