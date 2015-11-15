@@ -20,5 +20,6 @@
          sudo: yes
        }
      - { role: anaconda, 
+         python_version: 'python3',
          sudo: yes
        }
